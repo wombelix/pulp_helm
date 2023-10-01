@@ -1,6 +1,6 @@
 # pulp-helm
 
-A Pulp plugin to support hosting your own helm charts as (chart repository)[https://helm.sh/docs/topics/chart_repository/#helm].
+A Pulp plugin to support hosting your own helm charts as [chart repository](https://helm.sh/docs/topics/chart_repository/#helm).
 
 If you want to host your helm charts in a OCI compliant registry, you can use the [pulp_container](https://github.com/pulp/pulp_container) plugin instead.
 
