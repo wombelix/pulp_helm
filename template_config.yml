@@ -1,0 +1,82 @@
+# This config represents the latest values used when running the plugin-template. Any settings that
+# were not present before running plugin-template have been added with their default values.
+
+# generated with plugin_template@2021.08.26-248-g4bfc3e1
+
+additional_repos: []
+api_root: /pulp/
+black: true
+check_commit_message: true
+check_gettext: true
+check_manifest: true
+check_stray_pulpcore_imports: true
+ci_env: {}
+ci_trigger: '{pull_request: {branches: [''*'']}}'
+ci_update_branches: []
+ci_update_docs: false
+ci_update_release_behavior: null
+cli_package: pulp-cli
+cli_repo: https://github.com/pulp/pulp-cli.git
+core_import_allowed: []
+deploy_client_to_pypi: true
+deploy_client_to_rubygems: true
+deploy_to_pypi: true
+disabled_redis_runners: []
+doc_requirements_from_pulpcore: false
+docker_fixtures: false
+docs_test: true
+extra_docs_requirements: []
+flake8: true
+flake8_ignore: []
+github_org: wombelix
+issue_tracker: github
+kanban: true
+lint_requirements: true
+noissue_marker: '[noissue]'
+parallel_test_workers: 8
+plugin_app_label: helm
+plugin_camel: PulpHelm
+plugin_camel_short: Helm
+plugin_caps: PULP_HELM
+plugin_caps_short: HELM
+plugin_dash: pulp-helm
+plugin_dash_short: helm
+plugin_default_branch: main
+plugin_name: pulp_helm
+plugin_snake: pulp_helm
+post_job_template: null
+pre_job_template: null
+publish_docs_to_pulpprojectdotorg: false
+pulp_env: {}
+pulp_env_azure: {}
+pulp_env_gcp: {}
+pulp_env_s3: {}
+pulp_scheme: https
+pulp_settings: null
+pulp_settings_azure: null
+pulp_settings_gcp: null
+pulp_settings_s3: null
+pulpprojectdotorg_key_id: null
+pydocstyle: true
+pypi_username: wombelix
+python_version: '3.8'
+release_email: dominik@wombacher.cc
+release_user: wombelix
+run_pulpcore_tests_for_plugins: true
+single_commit_check: true
+stalebot: true
+stalebot_days_until_close: 30
+stalebot_days_until_stale: 90
+stalebot_limit_to_pulls: true
+sync_ci: true
+test_azure: false
+test_cli: false
+test_deprecations: true
+test_gcp: false
+test_lowerbounds: true
+test_performance: false
+test_reroute: true
+test_s3: false
+update_github: true
+use_issue_template: true
+
